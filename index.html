@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Networks</title>
+    <style>
+        * {
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .hero {
+            padding: 125px 50px;
+        }
+
+        .lg {
+            font-size: 35pt;
+        }
+
+        .lghl {
+            color: #563ACC;
+        }
+
+        .nav {
+            border-bottom: 1px solid #EFEFEF;
+            padding: 15px 25px;
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            display: flex;
+            align-items: center;
+        }
+
+        .features {
+            background: #F5F5F5;
+            padding: 50px;
+        }
+
+        .download {
+            background: #563ACC;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 100px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .download:hover {
+            background: #6345E1;
+        }
+
+        .download:active {
+            background: #2F0C7A;
+        }
+
+        .dlspacer {
+            padding: 15px;
+        }
+
+        .logo {
+            height: 35pt;
+            border-radius: 10pt;
+            margin-right: 10pt;
+        }
+
+        .logolg {
+            height: 100pt;
+            border-radius: 30pt;
+        }
+
+        .footer {
+            background: #2A2A2A;
+            padding: 15px 50px;
+            color: white;
+        }
+
+        .footer a {
+            color: inherit;
+        }
+
+        .nav .title {
+            color: #563ACC;
+            font-size: 15pt;
+            font-weight: bold;
+        }
+
+        .copyright {
+            color: #E5E5E5;
+            font-size: 10pt;
+        }
+
+        .t {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <a href="./" class="t">
+            <img src="logo.svg" class="logo" alt="Networks Logo">
+            <span class="title">Networks</span>
+        </a>
+    </div>
+    <div class="hero">
+        <img src="logo.svg" class="logolg" alt="Networks Logo">
+        <h1 class="lg">A delightful way to <span class="lghl">explore the Fediverse.</span></h1>
+        <div class="dlspacer"></div>
+        <h2>Private alpha coming soon.</h2>
+        <!-- <a href="" class="download">Download</a> -->
+    </div>
+    <div class="features">
+        <h1>Features</h1>
+        <div class="feature">
+            <h2>Intuitive Design</h2>
+            <p>Our intuitive design allows you to effortlessly browse, explore, and connect, all with the familiar user interface of your system.</p>
+        </div>
+        <div class="feature">
+            <h2>Diverse Platform Support</h2>
+            <p>Our platform supports some of the most popular Fediverse/ActivityPub platforms, including hundreds of servers. We currently support Mastodon, Pleroma, Pixelfed, Friendica, and Akkoma, with WriteFreely support coming soon.</p>
+        </div>
+        <div class="feature">
+            <h2>Built-In Privacy</h2>
+            <p>Our app is 100% private. All interactions connect directly between your device and the server. This means that we have no idea who you follow, which posts you've liked, and what you're posting.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Networks</h2>
+        <p class="copyright">&copy; 2023 "Networks" Authors. All rights reserved.</p>
+        <p><span>Home</span> - <a href="privacy.html">Privacy</a></p>
+    </div>
+</body>
+
+</html>
